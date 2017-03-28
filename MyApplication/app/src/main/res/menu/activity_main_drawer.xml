@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Se connecter"
+        android:id="@+id/connect"
+        android:icon="?android:attr/fingerprintAuthDrawable" />
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_tarifs" android:icon="@drawable/ic_menu_gallery"
+            android:title="Tarifs" />
+        <item android:id="@+id/nav_galerie" android:icon="@drawable/ic_menu_slideshow"
+            android:title="Galerie" />
+        <item android:title="Profil"
+            android:id="@+id/nav_profil"
+            android:icon="?android:attr/textSelectHandle" />
+        <item android:id="@+id/nav_options" android:icon="@drawable/ic_menu_manage"
+            android:title="Options" />
+    </group>
+
+    <item android:title="Me contacter">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@drawable/ic_menu_share"
+                android:title="Partager" />
+            <item android:id="@+id/nav_contact" android:icon="@drawable/ic_menu_send"
+                android:title="Contact" />
+        </menu>
+    </item>
+
+</menu>

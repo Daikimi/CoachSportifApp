@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titre_fpp"
+        android:text="@string/titre_fpp"
+        android:textAlignment="center"
+        android:textColor="@color/colorTitre"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:id="@+id/imageView5" />
+
+    <TextView
+        android:text="@string/content_fpp_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fpp_content_1"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:paddingBottom="15dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+        <TextView
+            android:text="@string/stitre_1"
+            android:layout_width="100dp"
+            android:layout_height="28dp"
+            android:id="@+id/stitre1_fpp"
+            android:textColor="@color/colorTitre"
+            android:textStyle="normal|bold"
+            android:textSize="17sp" />
+
+        <TextView
+            android:text="@string/content_fpp_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/stitre_2"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/stitre2_fpp"
+            android:textStyle="normal|bold"
+            android:textSize="17sp"
+            android:textColor="@color/colorTitre" />
+
+        <TextView
+            android:text="@string/content_fpp_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fpp_content_3"
+            android:layout_weight="1"
+            android:textSize="17sp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+
+</LinearLayout>

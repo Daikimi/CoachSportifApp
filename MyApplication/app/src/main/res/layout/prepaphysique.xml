@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/titre_prepaphy"
+        android:text="@string/titre_prepaphy"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@color/colorTitre" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:id="@+id/imageView4" />
+
+    <TextView
+        android:text="@string/content_prepaphy_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_prepaphy_1"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:paddingBottom="15dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="73dp">
+
+        <TextView
+            android:text="@string/stitre_1"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/stitre_1_prepaphy"
+            android:textSize="17sp"
+            android:textColor="@color/colorTitre"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="@string/content_prepaphy_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_prepaphy_2"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/stitre_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stitre_prepaphy_2"
+            android:layout_weight="0.06"
+            android:textSize="17sp"
+            android:textColor="@color/colorTitre"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="@string/content_prepaphy_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

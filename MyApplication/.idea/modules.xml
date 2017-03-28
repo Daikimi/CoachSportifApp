@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///usr/local/android-2.2/fablety/AndroidStudioProjects/MyApplication/MyApplication.iml" filepath="/usr/local/android-2.2/fablety/AndroidStudioProjects/MyApplication/MyApplication.iml" />
+      <module fileurl="file:///usr/local/android-2.2/fablety/AndroidStudioProjects/MyApplication/app/app.iml" filepath="/usr/local/android-2.2/fablety/AndroidStudioProjects/MyApplication/app/app.iml" />
+    </modules>
+  </component>
+</project>

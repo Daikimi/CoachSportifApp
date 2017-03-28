@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Coach Sportif</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="stitre_1">Contenue :</string>
+    <string name="stitre_2">Public visé :</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="titre_cn">Conseils nutritionnels</string>
+    <string name="content_cn_1">Complémentaires aux autres forfaits</string>
+    <string name="content_cn_2"> Conseils en nutrition sportive. Conseil personnalisé pour améliorer la condition physique et la santé par la nutrition.</string>
+    <string name="content_cn_3"> Tout public </string>
+
+
+
+    <string name="titre_cd">Coaching à domicile</string>
+    <string name="content_cd_1">Remise en forme générale, pas d\'objectif quantifié si ce n\'est aller mieux physiquement</string>
+    <string name="content_cd_2"> Cardio et renforcement musculaire, 1 à 2 séance par semaine </string>
+    <string name="content_cd_3"> Personne non actives physiquement </string>
+
+    <string name="titre_fpp">Forfait perte de poids</string>
+    <string name="content_fpp_1">Pour les personnes souhaitant perdre du poids .</string>
+    <string name="content_fpp_2"> Travail de cardio et de force, 3 seances par semaine sur 3 mois .</string>
+    <string name="content_fpp_3">Personnes obèse, en surpoids ou toute personne souhaitant perdre du poids efficacement et rapidement.</string>
+
+    <string name="titre_reathletisation">Reathletisation</string>
+    <string name="content_rea_1">Entrainement spécifique à l\'étape dans laquelle se trouve un sportif blessé .</string>
+    <string name="content_rea_2">Travail en synergie avec le médecin du sport, exercice d\'entretien pendant l\'inactivité, exercices de développement pendant la réathlétisation</string>
+    <string name="content_rea_3">Sportif blessé ou retour de blessure .</string>
+
+    <string name="titre_prepaphy">Préparation physique</string>
+    <string name="content_prepaphy_1">Entraînement basé sur les techniques les plus efficaces afin d\'atteindre des objectifs de compéttion et de progression.</string>
+    <string name="content_prepaphy_2">Développement et maintien des qualiés physiques (force, endurance, vitesse et souplesse) 2 séances par semaine</string>
+    <string name="content_prepaphy_3">Sportifs de compétition.</string>
+
+    <string name="titre_autre">Autres service</string>
+    <string name="titre_tarif">tarif</string>
+
+</resources>
